@@ -1,0 +1,14 @@
+---
+title: "Blog"
+subtitle: "metascience, generative modeling, and data processing"
+toc: false
+number-sections: false
+title-block-banner: "#3a3a5a"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: table
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---

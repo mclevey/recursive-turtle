@@ -1,0 +1,220 @@
+/* Title Block Banner Styling (Overall Container) */
+#title-block-header {
+    background-color: #3a3a5a !important;
+    padding: 2em 1em !important;
+    color: white !important;
+    position: relative;
+}
+
+/* Title & Subtitle */
+#title-block-header h1.title {
+    font-size: 2.3rem !important;
+    font-weight: 600 !important;
+}
+
+#title-block-header .subtitle {
+    font-size: 1.6rem !important;
+    font-weight: 400 !important;
+}
+
+/* Fontsize and Vertical Spacing Between Sections */
+#title-block-header .quarto-title,
+#title-block-header .quarto-title-meta,
+#title-block-header .quarto-title-authors,
+#title-block-header .quarto-title-abstract,
+#title-block-header .quarto-title-abstract .quarto-abstract {
+    /* font-size: 1rem !important; */
+    margin-bottom: 1.1em !important;
+}
+
+/* Adjust font size and spacing for the abstract section */
+#title-block-header .quarto-title-abstract,
+#title-block-header .quarto-title-abstract .quarto-abstract {
+    /* font-size: 1.3rem !important; */
+    line-height: 1.2 !important;
+    margin-bottom: 1.2em !important;
+}
+
+#title-block-header .quarto-title-abstract .abstract-title {
+    font-size: 1.6rem !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.5em !important;
+    text-transform: uppercase !important;
+}
+
+body #title-block-header .quarto-title-abstract,
+body #title-block-header .quarto-title-abstract .quarto-abstract {
+    font-size: 1.3rem !important;
+}
+
+/* Improve Line Spacing for Paragraphs */
+#title-block-header .description p {
+    font-size: 1.3rem !important;
+    margin-bottom: 1.2em !important;
+    line-height: 1.2 !important;
+}
+
+/* Force All Banner Text to Be White */
+#title-block-header * {
+    color: white !important;
+}
+
+/* LOGIN SHIT */
+.navbar a[href="login.html"] {
+    background-color: #3A3A5A;
+    color: white !important;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.navbar a[href="login.html"]:hover {
+    background-color: #2f2f48;
+}
+
+.navbar a[href="login.qmd"] {
+    background-color: #3A3A5A;
+    color: white !important;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.navbar a[href="login.qmd"]:hover {
+    background-color: #2f2f48;
+}
+
+/* Rectangular button with soft corners */
+.softbox {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    font-size: 0.75em;
+    font-weight: 600;
+    color: white;
+    background-color: #3a3a5a;
+    border: none;
+    border-radius: 0.25em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.softbox:hover,
+.softbox:focus {
+    background-color: #B48EAD;
+    text-decoration: none;
+    outline: none;
+}
+
+.softbox a {
+    color: white !important;
+    text-decoration: none;
+    /* removes underline */
+}
+
+
+.softbox a:hover {
+    text-decoration: underline;
+    /* adds hover underline */
+}
+
+/* Pill style buttons */
+.pill {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    font-size: 0.75em;
+    font-weight: 600;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.pill.master {
+    background-color: #2E3440;
+}
+
+.pill.pink {
+    background-color: #B48EAD;
+}
+
+.pill.purple {
+    background-color: #3a3a5a;
+}
+
+.pill.pinegreen {
+    background-color: #4F7942;
+}
+
+.pill.contessa {
+    background-color: #BF616A;
+}
+
+.pill a {
+    color: white !important;
+    text-decoration: none;
+    /* removes underline */
+}
+
+
+.pill a:hover {
+    text-decoration: underline;
+    /* adds hover underline */ }
+
+.pill:hover,
+.pill:focus {
+    background-color: #B48EAD;
+    text-decoration: none;
+    outline: none;
+}
+
+/* Table Caption */
+.quarto-table caption,
+.table caption,
+table caption {
+    text-align: left !important;
+    caption-side: top !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+.table-caption {
+    text-align: left !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    font-size: 0.9em;
+    color: #555; }
+
+
+main a {
+    color: #3a3a5a !important;
+}
+
+main a:hover {
+    color: #2f2f48 !important;
+}
+
+/* sign in pills */
+.navbar a#sign-in-button,
+.navbar a#sign-out-button {
+    background-color: #3A3A5A;
+    color: white !important;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    text-decoration: none;
+}
+
+.navbar a#sign-in-button:hover,
+.navbar a#sign-out-button:hover {
+    background-color: #2f2f48;
+}

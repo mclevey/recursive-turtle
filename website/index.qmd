@@ -1,0 +1,15 @@
+---
+title: "Recursive Turtle"
+subtitle: "Lab Infrastructure for Research Computing & Data Management"
+toc: false
+number-sections: false
+---
+
+::: {.center}
+<button onclick="window.location.href='login.html'"
+        style="padding: 10px 20px; font-size: 1rem; border-radius: 5px; background-color: #3A3A5A; color: white; border: none; cursor: pointer;">
+  {{< fa lock >}}&nbsp;&nbsp;&nbsp;&nbsp;<strong>Sign in</strong> | Recursive Turtle Data Portal
+</button>
+:::
+
+<br>

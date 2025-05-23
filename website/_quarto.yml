@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: ../docs
+  resources:
+  - data
+
+website:
+  title: "Recursive Turtle"
+  navbar:
+    left:
+    - text: Datasets
+      href: data/datasets.qmd
+    - text: "Documentation"
+      href: documentation/turtlestack.qmd
+    - text: "Blog"
+      href: blog.qmd
+    right:
+    - text: "About"
+      href: about.qmd
+    - text: Source Code
+      icon: github
+      href: https://github.com/mclevey/recursive-turtle
+  page-footer:
+    center:
+    - text: "Recursive Turtle"
+      href: https://github.com/mclevey/recursive-turtle
+      icon: github
+
+format:
+  html:
+    fontsize: 1.2em
+    self-contained: true
+    number-sections: true
+    toc: true
+    toc-title: "Contents"
+    toc-location: right
+    toc-depth: 5
+    code-fold: true
+    code-tools:
+      source: false
+      toggle: false
+    code-copy: true
+    theme:
+    - cosmo
+    css: styles.css
+
+    # integrated default metadata
+    freeze: auto
+    echo: false
+    include: false
+    warning: false
+    message: false
+    title-block-author: true
+    title-block-layout: horizontal
+    title-block-banner: "#3a3a5a"
+    abstract-title: Overview
+    author-title: Data Citation
+    affiliation-title: ""
+    bibliography: references.bib
+
+execute:
+  freeze: auto
+  cache: true
+  python: ../.venv/bin/python
+  echo: false
+  include: false
+  warning: false
+  message: false

@@ -1,0 +1,14 @@
+# computational output 
+freeze: auto
+echo: false
+warning: false
+message: false
+# banner metadata
+title-block-author: true
+title-block-layout: horizontal
+title-block-banner: "#3a3a5a"
+# post metadata
+abstract-title: Summary
+author-title: Project Leads
+bibliography: datasets.bib
+affiliation-title: ""
